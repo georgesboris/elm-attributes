@@ -1,0 +1,25 @@
+{
+  "name": "elm-package-template",
+  "description": "Template repository for creating Elm packages",
+  "version": "0.0.1",
+  "license": "MPL-2.0",
+  "author": "Georges Boris",
+  "homepage": "https://github.com/georgesboris/elm-package-template#readme",
+  "keywords": [
+    "elm"
+  ],
+  "bugs": {
+    "url": "https://github.com/georgesboris/elm-package-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgesboris/elm-package-template.git"
+  },
+  "scripts": {
+    "postinstall": "elm-tooling install",
+    "test": "elm-test-rs"
+  },
+  "devDependencies": {
+    "elm-tooling": "^1.14.1"
+  }
+}
