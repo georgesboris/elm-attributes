@@ -1,11 +1,11 @@
 {
     "type": "package",
-    "name": "georgesboris/elm-package-template",
-    "summary": "TODO: Write the summary for your package here.",
+    "name": "georgesboris/elm-attributes",
+    "summary": "Easily implement and use attribute based APIs using the Elm language",
     "license": "MPL-2.0",
     "version": "1.0.0",
     "exposed-modules": [
-        "Hello"
+        "Attr"
     ],
     "elm-version": "0.19.0 <= v < 0.20.0",
     "dependencies": {

@@ -1,25 +1,27 @@
 {
-  "name": "elm-package-template",
-  "description": "Template repository for creating Elm packages",
-  "version": "0.0.1",
+  "name": "georgesboris/elm-attributes",
+  "description": "Easily implement and use attribute based APIs using the Elm language",
+  "version": "1.0.0",
   "license": "MPL-2.0",
   "author": "Georges Boris",
-  "homepage": "https://github.com/georgesboris/elm-package-template#readme",
+  "homepage": "https://github.com/georgesboris/elm-attributes#readme",
   "keywords": [
     "elm"
   ],
   "bugs": {
-    "url": "https://github.com/georgesboris/elm-package-template/issues"
+    "url": "https://github.com/georgesboris/elm-attributes/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/georgesboris/elm-package-template.git"
+    "url": "git+https://github.com/georgesboris/elm-attributes.git"
   },
   "scripts": {
     "postinstall": "elm-tooling install",
-    "test": "elm-test-rs"
+    "test": "elm-test-rs",
+    "start": "elm-doc-preview"
   },
   "devDependencies": {
+    "elm-doc-preview": "^5.0.5",
     "elm-tooling": "^1.14.1"
   }
 }
